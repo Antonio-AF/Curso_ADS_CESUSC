@@ -8,7 +8,7 @@
 
 int main(){
 
-    int tabuada, multiplicando, multiplicador;
+    int tabuada, multiplicador;
 
     printf("Digite qual Tabuada voce quer calcular: ");
     scanf("%d", &multiplicador);

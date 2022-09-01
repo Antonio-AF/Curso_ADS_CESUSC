@@ -7,50 +7,42 @@
 #include <iostream>
 #include <string.h>
 
-int main(int num){
-
-    setlocale(LC_ALL, "Portuguese");
-
-    int i, j;
-    int quociente;
-
-    num = 438;
-    i = 0;
-
-    int resto_i;
-
-    quociente = num/16;
-    resto_i = num % 16;
-
-    while (quociente >= 16)
-    {
-        i++;
-        resto_i = quociente % 16;
-        quociente = quociente / 16;
-
-    }
-    i++;
-        resto_i = quociente;
-
-    printf("\nConversão de %d em Hexadecimal = ", num);
-    for( ; i<=1; i--){
-
-        if(resto_i >=10)
-            switch (resto_i)
-            {
-            case 10: printf("A"); break;
-            case 11: printf("B"); break;
-            case 12: printf("C"); break;
-            case 13: printf("D"); break;
-            case 14: printf("E"); break;
-            case 15: printf("F"); break;           
-            }
-            else{
-                printf("%d", resto_i);
-        }
-    }   
-    printf("\n\n");
-    
-        
+int main(){
+	
+	int opcao;
+	int valor;
+	
+	printf("Conversos de Bases Numericas \n");
+	printf("Digite 1 para Hexadecimal \n");
+	printf("Digite 2 para Decimal \n");
+	printf("Informe a Opção: ");
+	scanf("%d", &opcao);
+	getchar();
+	
+	if(opcao ==1){
+		
+		printf("Informe o Valor em Decimal: ");
+		scanf("%d", &valor);
+		getchar();
+		printf("%d Em Hexadecimal EH: %x \n", valor, valor);
+		
+	}else if(opcao == 2){
+		
+		printf("Informe o Valor em Hexadecimal: ");
+		scanf("%x", &valor);
+		getchar();
+		printf("%x Em Decimal é: %d", valor, valor);
+	}else if(opcao == 3){
+		
+		printf("Informe o Valor em Hexadecimal: ");
+		scanf("%d", &valor);
+		getchar();
+		printf("%x Em Decimal é: %o", valor, valor);		
+	}else{
+		printf("A Opção Informada é Invalida!\n ");
+	}
+	
+     
+    system("pause");    
     return 0;
 }

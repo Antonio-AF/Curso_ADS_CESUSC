@@ -1,4 +1,4 @@
-// FaÁa um algoritmo para calcular o IMC de uma pessoa e classificar 
+// Fa√ßa um algoritmo para calcular o IMC de uma pessoa e classificar 
 
 #include <stdio.h>
 #include <iostream>
@@ -38,15 +38,15 @@ int main(){
     printf("\n Apresentou IMC = %2.2f \n", IMC);
 
     if(IMC<18.5){
-        printf("Sua ClassificaÁ„o est· Abaixo do Peso!\n");
+        printf("Sua Classifica√ß√£o est√° Abaixo do Peso!\n");
     }else if(IMC >= 18.5 && IMC <=24.9){
-        printf("Sua ClassificaÁ„o est· com Peso Normal!\n");
+        printf("Sua Classifica√ß√£o est√° com Peso Normal!\n");
     }else if(IMC > 25.0 && IMC <=29.9){
-        printf("Sua ClassificaÁ„o est· Sobrepeso!\n");
+        printf("Sua Classifica√ß√£o est√° Sobrepeso!\n");
     }else if(IMC >= 30.0 && IMC < 40.0){
-        printf("Sua ClassificaÁ„o est· Obesidade!\n");
+        printf("Sua Classifica√ß√£o est√° Obesidade!\n");
     }else if(IMC >= 40.0){
-        printf("Sua ClassificaÁ„o est· Obesidade Grave!\n");
+        printf("Sua Classifica√ß√£o est√° Obesidade Grave!\n");
     }
 
 

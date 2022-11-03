@@ -13,7 +13,7 @@ int main(){
 	float A, B, C;
 	float X1, X2;
 	
-    printf("Uma função do 2º Grau é do tipo f(x)=ax² + bx + c\n\n");
+    printf("Uma funÃ§Ã£o do 2Âª Grau Ã© do tipo f(x)=axï¿½ + bx + c\n\n");
 
 	printf("Digite um valor para A: ");
     scanf("%f", &A);
@@ -30,8 +30,8 @@ int main(){
 	X1 = (-B + delta)/2*A;
 	X2 = (-B - delta)/2*A;
 	
-	printf("Função do 2º é f(x)=%.2fX² + %.2fX + %.2f\n", A,B,C);
-    printf("As raízes são X'= %.2f e X'' = %.2f. \n", X1, X2);
+	printf("Funï¿½ï¿½o do 2ï¿½ ï¿½ f(x)=%.2fXï¿½ + %.2fX + %.2f\n", A,B,C);
+    printf("As raï¿½zes sï¿½o X'= %.2f e X'' = %.2f. \n", X1, X2);
 	printf("Delta vale %.2f", delta);
 
 	

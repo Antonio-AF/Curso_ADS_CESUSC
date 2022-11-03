@@ -1,4 +1,4 @@
-﻿/* Construa um algoritmo que calcule o salÃÂÃÂ¡rio de um colaborador pelo valor
+/* Construa um algoritmo que calcule o salÃÂÃÂ¡rio de um colaborador pelo valor
 da hora/trabalho e quandidade de horas trabalhadas.
 lembrar o colaborador possui um salÃÂÃÂ¡rio bruto e lÃÂÃÂ­quido
 SalÃÂÃÂ¡rio Bruto = hora/tabalho  * horas_trabalhadas

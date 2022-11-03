@@ -1,6 +1,6 @@
 /*
 5. Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para
-ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu
+ler o preÃ§o do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu
 colocar no tanque.
 */
 
@@ -15,7 +15,7 @@ int main(){
 
     float Gas_Litros, Preco_Gas, Valor_Add;
 
-    printf("Digite o valor que você quer por de Gasolina: ");
+    printf("Digite o valor que vocï¿½ quer por de Gasolina: ");
     scanf("%f", &Valor_Add);
 
     printf("Digite o Valor do Litro da Gasolina: ");

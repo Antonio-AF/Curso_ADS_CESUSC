@@ -1,7 +1,7 @@
 /*
 4. Escreva um algoritmo para ler o nome e a idade de uma pessoa, e exibir quantos dias de
 vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias. Ex: uma
-pessoa com 19 anos possui 6935 dias de vida; veja um exemplo de saÌda: MARIA, VOC  J¡
+pessoa com 19 anos possui 6935 dias de vida; veja um exemplo de sa√≠da: MARIA, VOC√ä J√Å
 VIVEU 6935 DIAS 5.
 */
 
@@ -26,7 +26,7 @@ int main(){
 
     Dias_Vida = Idade * 365;
 
-    printf("%12s, vocÍ j· viveu %d dias!\n", Nome[12], Dias_Vida);
+    printf("%12s, vocÔøΩ jÔøΩ viveu %d dias!\n", Nome[12], Dias_Vida);
 
     system("Pause");
     return 0;

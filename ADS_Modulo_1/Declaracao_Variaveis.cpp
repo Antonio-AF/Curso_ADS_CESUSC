@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <iostream>
 
-// OrganizaÁ„o b·sica de programas C
+// Organiza√ß√£o b√°sica de programas C
 
         //  tipo nome(lista de argumentos) {
         //     declaracoes;
@@ -16,7 +16,7 @@
 
 int main(){
 
-// Toda vari·vel que for utilizada em uma funÁ„o C deve ser previamente declarada. A forma geral de uma declaraÁ„o de vari·vel È:
+// Toda vari√°vel que for utilizada em uma fun√ß√£o C deve ser previamente declarada. A forma geral de uma declara√ß√£o de vari√°vel √©:
 
     // tipo nome_da_variavel;
         // ou

@@ -19,9 +19,9 @@ int main(){
     printf("Digite qual Tabuada voce quer calcular: ");
     scanf("%d", &multiplicador);
 
-    int i = 0;
+    // int i = 0;
 
-    for(i = 0; i<=20; i++){
+    for(int i = 0; i<=10; i++){
 
         tabuada = multiplicador * i;
         printf("%d X %d = %d\n", multiplicador, i, tabuada);

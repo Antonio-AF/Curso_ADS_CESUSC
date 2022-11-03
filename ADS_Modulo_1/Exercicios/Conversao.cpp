@@ -1,4 +1,4 @@
-//1) Fazer um programa em C que pergunte um valor em metros e imprime o correspondente em decímetros e milímetros.
+//1) Fazer um programa em C que pergunte um valor em metros e imprime o correspondente em decï¿½metros e milï¿½metros.
 
 #include <stdio.h>
 #include <locale.h>
@@ -13,28 +13,28 @@ int main(){
     float Mm, Cm, M;
     int opcao;
 
-    printf("Esse programa realiza a conversão de Unidades de Medidas Metros para Centimetros e Milimetros\n");
+    printf("Esse programa realiza a conversï¿½o de Unidades de Medidas Metros para Centimetros e Milimetros\n");
 
-    printf("Digite o Valor em metros que você quer Converter: ");
+    printf("Digite o Valor em metros que vocï¿½ quer Converter: ");
     scanf("%f", &M);
 
-    printf("Digite 1 para converter em Centímetro e Digite 2 para converter em Milímertro:");
+    printf("Digite 1 para converter em Centï¿½metro e Digite 2 para converter em Milï¿½mertro:");
     scanf("%d", &opcao);
 
 
     if (opcao == 1){        
         Cm = M*100;
-        printf("O valor em Centímetros é %.2f", Cm);
+        printf("O valor em CentÃ­metros ï¿½ %.2f", Cm);
 
     }else if (opcao == 2){
 
         Mm = M*100;
-        printf("O valor em Milímetros é %.2f",  Mm);
+        printf("O valor em MilÃ­metros ï¿½ %.2f",  Mm);
 
     }else {
         
         ;
-        printf("A opcao digitada é incorreta!!!");
+        printf("A opcao digitada ï¿½ incorreta!!!");
     }
 
     return 0;

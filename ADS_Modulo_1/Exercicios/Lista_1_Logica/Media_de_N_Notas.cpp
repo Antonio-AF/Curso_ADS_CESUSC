@@ -21,7 +21,7 @@ int main(){
     
     
 
-    printf("Qual o nome do aluno:");
+    printf("Qual o nome do aluno: ");
     scanf("%s", &Aluno);
     
 

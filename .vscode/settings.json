@@ -93,6 +93,7 @@
         "correspondente",
         "crescente",
         "Crescente",
+        "Criando",
         "Cust",
         "custa",
         "decímetros",
@@ -244,6 +245,7 @@
         "Medio",
         "médio",
         "meni",
+        "Mensagem",
         "meses",
         "mesma",
         "Metragem",
@@ -262,6 +264,7 @@
         "ncia",
         "ndices",
         "necessárias",
+        "nesse",
         "nestes",
         "ninho",
         "numa",
@@ -446,5 +449,8 @@
         "iostream": "cpp",
         "xstring": "cpp"
     },
-    "scm.inputFontSize": 14
+    "scm.inputFontSize": 14,
+    "cSpell.ignoreWords": [
+        "primitivo"
+    ]
 }
